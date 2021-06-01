@@ -1,0 +1,21 @@
+name: invoice-backend
+
+dependencies:
+  - python=3.8
+  - psycopg2
+  - pip
+  - pip:
+      - Django
+      - flake8
+      - djangorestframework
+      - django-filter
+      - django-cors-headers
+      - djangorestframework_simplejwt
+      - coreapi
+      - gunicorn
+      - Pillow
+      - django-cors-headers
+      - django-countries
+      - drf-yasg
+      - django-extensions # required for email functionality
+      - django-fullurl # required for email functionality
